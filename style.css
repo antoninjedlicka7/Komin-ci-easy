@@ -792,6 +792,15 @@ h2 {
         padding: 1.5rem;
     }
 
+    .contact-link.major {
+        font-size: 1.2rem;
+    }
+
+    .contact-link span {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
     .footer-content {
         flex-direction: column;
         text-align: center;
