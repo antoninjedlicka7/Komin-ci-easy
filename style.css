@@ -788,7 +788,8 @@ h2 {
         z-index: -1;
     }
     
-    .contact-form {
+    .contact-form,
+    .contact-card {
         padding: 1.5rem;
     }
 
@@ -796,9 +797,16 @@ h2 {
         font-size: 1.2rem;
     }
 
+    .contact-link {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
     .contact-link span {
         word-break: break-word;
         overflow-wrap: anywhere;
+        flex: 1;
+        min-width: 0;
     }
 
     .footer-content {
